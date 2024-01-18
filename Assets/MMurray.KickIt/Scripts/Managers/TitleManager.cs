@@ -15,24 +15,26 @@ public class TitleManager : MonoBehaviour
     float duration = 1;
 
     public Button continueButton;
-    public TextMeshProUGUI startButtonText, continueButtonText, creditsButtonText;
+    public TextMeshProUGUI startButtonText, /*continueButtonText,*/ creditsButtonText;
     public TextMeshProUGUI version;
     public string versionNumber;
 
     // Start is called before the first frame update
     void Start()
     {
-        ScreenFade sf = Singleton.instance.ScreenFade;
-        sf.FadeIn();
+        Singleton singleton = Singleton.instance;
+        singleton.ScreenFade.FadeIn();
+        //ScreenFade sf = Singleton.instance.ScreenFade;
+        //sf.FadeIn();
 
         //button text setup
-        startButtonText.text = GetText("ui_startButtonText");
-        continueButtonText.text = GetText("ui_continueButtonText");
-        creditsButtonText.text = GetText("ui_creditsButtonText");
+        startButtonText.text = singleton.GetText("ui_startButtonText");
+        //continueButtonText.text = singleton.GetText("ui_continueButtonText");
+        creditsButtonText.text = singleton.GetText("ui_creditsButtonText");
         version.text = versionNumber;
 
         //check for a save state
-        LOLSDK.Instance.LoadState<GameData>(state =>
+        /*LOLSDK.Instance.LoadState<GameData>(state =>
         {
             if (state != null)
             {
@@ -51,14 +53,14 @@ public class TitleManager : MonoBehaviour
                 continueButton.gameObject.SetActive(false);
             }
            
-        });
+        });*/
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void StartButtonClicked()
     {
@@ -72,8 +74,8 @@ public class TitleManager : MonoBehaviour
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
         PlayerPrefs.DeleteAll();
         Singleton.instance.musicEnabled = true;
-        Singleton.instance.ttsEnabled = true;
-        Singleton.instance.saveStateFound = false;
+        //Singleton.instance.ttsEnabled = true;
+        //Singleton.instance.saveStateFound = false;
         sf.ChangeSceneFadeOut("Game");
     }
 

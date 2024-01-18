@@ -45,13 +45,13 @@ public class HintDialogue : MonoBehaviour
         dialogueText.text = GetText(key);
 
         Debug.Log("Dialogue text key is " + key);
-        Debug.Log("TTS State: " + Singleton.instance.ttsEnabled);
+        //Debug.Log("TTS State: " + Singleton.instance.ttsEnabled);
 
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             LOLSDK.Instance.SpeakText(key);
             Debug.Log("TTS is playing");
-        }
+        }*/
 
         //highlight any blocks
         HighlightBlocks(blockIdList);

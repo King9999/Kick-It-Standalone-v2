@@ -388,7 +388,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 460548148651321883, guid: ffeb0543baedc9f4baae238a51017067, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 45
+      value: 104
+      objectReference: {fileID: 0}
+    - target: {fileID: 797082942295021713, guid: ffeb0543baedc9f4baae238a51017067, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 933103213404018863, guid: ffeb0543baedc9f4baae238a51017067, type: 3}
       propertyPath: m_RaycastTarget

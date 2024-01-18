@@ -89,13 +89,13 @@ public class Dialogue : MonoBehaviour
        
 
         Debug.Log("Dialogue text key is " + key);
-        Debug.Log("TTS State: " + Singleton.instance.ttsEnabled);
+        //Debug.Log("TTS State: " + Singleton.instance.ttsEnabled);
 
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             LOLSDK.Instance.SpeakText(key);
             Debug.Log("TTS is playing");
-        }
+        }*/
 
         StartCoroutine(AnimateText(0.032f, dialogueText.text));
     }
@@ -168,8 +168,8 @@ public class Dialogue : MonoBehaviour
     {
         Debug.Log("Pressed Space");
 
-        if (Singleton.instance.ttsEnabled)
-            ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText(); //stops TTS if still in the middle of speaking
+        //if (Singleton.instance.ttsEnabled)
+            //((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText(); //stops TTS if still in the middle of speaking
 
         if (gameObject.activeSelf && canAdvanceDialogue)
         {

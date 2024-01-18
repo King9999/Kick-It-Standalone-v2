@@ -21,11 +21,6 @@ public class EndOfLevelWindow : MonoBehaviour
         //gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     string GetText(string key)
     {
@@ -49,10 +44,10 @@ public class EndOfLevelWindow : MonoBehaviour
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
 
         //stop TTS
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
-        }
+        }*/
 
         GameManager gm = Singleton.instance.GameManager;
         gm.SetGameState(GameManager.GameState.GoToNextLevel);
@@ -83,10 +78,10 @@ public class EndOfLevelWindow : MonoBehaviour
         }
 
         //stop TTS
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
-        }
+        }*/
 
         AudioManager audio = Singleton.instance.AudioManager;
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
@@ -111,11 +106,11 @@ public class EndOfLevelWindow : MonoBehaviour
         transform.localScale = Vector3.one;
 
         //play TTS
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             LOLSDK.Instance.SpeakText("ui_endOfLevelMenuText");
             Debug.Log("Reading end of level menu text");
-        }
+        }*/
     }
 
     IEnumerator AnimateWindowClose()

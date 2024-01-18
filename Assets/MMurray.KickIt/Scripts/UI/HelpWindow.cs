@@ -58,11 +58,11 @@ public class HelpWindow : MonoBehaviour
         //videoPlayer.clip = videoClips[0];
         tutorialWindow.tutorialText.text = GetText("tutorial_howToMove");
         tutorialWindow.tutorialText.fontSize = fontSize;
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText(); //cancel any previous sound
             LOLSDK.Instance.SpeakText("tutorial_howToMove");
-        }
+        }*/
 
     }
 
@@ -77,11 +77,11 @@ public class HelpWindow : MonoBehaviour
         //videoPlayer.clip = videoClips[1];
         tutorialWindow.tutorialText.text = GetText("tutorial_pushBlock");
         tutorialWindow.tutorialText.fontSize = fontSize;
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
             LOLSDK.Instance.SpeakText("tutorial_pushBlock");
-        }
+        }*/
     }
 
     public void HelpButtonThreeClicked()
@@ -95,11 +95,11 @@ public class HelpWindow : MonoBehaviour
         //videoPlayer.clip = videoClips[2];
         tutorialWindow.tutorialText.text = GetText("tutorial_kick");
         tutorialWindow.tutorialText.fontSize = fontSize;
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
             LOLSDK.Instance.SpeakText("tutorial_kick");
-        }
+        }*/
     }
 
     public void HelpButtonFourClicked()
@@ -113,11 +113,11 @@ public class HelpWindow : MonoBehaviour
         //videoPlayer.clip = videoClips[3];
         tutorialWindow.tutorialText.text = GetText("tutorial_fractionBlock");
         tutorialWindow.tutorialText.fontSize = fontSize;
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
             LOLSDK.Instance.SpeakText("tutorial_fractionBlock");
-        }
+        }*/
     }
 
     public void HelpButtonFiveClicked()
@@ -129,11 +129,11 @@ public class HelpWindow : MonoBehaviour
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
         tutorialWindow.tutorialText.text = GetText("tutorial_numeratorDenominator");
         tutorialWindow.tutorialText.fontSize = fontSize - 4;
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
             LOLSDK.Instance.SpeakText("tutorial_numeratorDenominator");
-        }
+        }*/
     }
 
     public void HelpButtonSixClicked()
@@ -146,11 +146,11 @@ public class HelpWindow : MonoBehaviour
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
         tutorialWindow.tutorialText.text = GetText("tutorial_blockIcons");
         tutorialWindow.tutorialText.fontSize = fontSize - 4;
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
             LOLSDK.Instance.SpeakText("tutorial_blockIcons");
-        }
+        }*/
     }
 
     public void BackButtonClicked()
@@ -161,10 +161,10 @@ public class HelpWindow : MonoBehaviour
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
 
         //cancel TTS if it's currently active
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
-        }
+        }*/
         tutorialWindow.gameObject.SetActive(false);
         gameObject.SetActive(false);
     }

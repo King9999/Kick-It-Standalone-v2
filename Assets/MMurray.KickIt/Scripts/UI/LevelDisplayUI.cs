@@ -20,12 +20,12 @@ public class LevelDisplayUI : MonoBehaviour
         float xOffset = 300;
         //find the level text key and populate the list. Must count the number of characters and instantiate object for each one.
         //the key changes depending on whether we're on a tutorial level or a normal level.
-        string levelText = GetText(tutorialKey, Singleton.instance.gameData.level + 1);
+        string levelText = Singleton.instance.GetText(tutorialKey) + " 1"; //+ (gm.level - 1); //GetText(roomKey, Singleton.instance.gameData.level - 1);
 
-        if (Singleton.instance.gameData.level > 1)
+        /*if (Singleton.instance.gameData.level > 1)
         {
             levelText = GetText(roomKey, Singleton.instance.gameData.level - 1);
-        }
+        }*/
 
         for (int i = 0; i < levelText.Length; i++)
         {

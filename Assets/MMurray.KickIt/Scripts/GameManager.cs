@@ -65,11 +65,11 @@ public class GameManager : MonoBehaviour
         Singleton.instance.GameManager = this;      //master singleton captures 
 
         //TODO: CHECK FOR SAVE STATE HERE
-        if (Singleton.instance.saveStateFound)
+        /*if (Singleton.instance.saveStateFound)
         {
             //Singleton.instance.saveState.LoadState(Singleton.instance.saveState.ReadState);
             level = Singleton.instance.gameData.level;  //gameData level should be populated from LoadState in Title Manager.
-        }
+        }*/
         roomList = JsonUtility.FromJson<Rooms>(roomFile.text);
         Debug.Log("Number of levels (including tutorials): " + roomList.rooms.Length);
 
@@ -574,12 +574,12 @@ public class GameManager : MonoBehaviour
         }
 
         //check for a save state and update the level layout
-        if (Singleton.instance.saveStateFound)
+        /*if (Singleton.instance.saveStateFound)
         {
             Singleton.instance.saveState.LoadState(Singleton.instance.saveState.ReadState);
-        }
-        else
-        {
+        }*/
+        //else
+        //{
             //graveyard is cleared to prevent any blocks from previous levels interfering with blocks in current level.
             for (int i = 0; i < blockGraveyard.Count; i++)
             {
@@ -589,7 +589,7 @@ public class GameManager : MonoBehaviour
             }
 
             //blockGraveyard.Clear(); 
-            Singleton.instance.saveState.WriteState(Singleton.instance.gameData);
+            //Singleton.instance.saveState.WriteState(Singleton.instance.gameData);
             SetGameState(GameState.ShowLevelNumber);
             Singleton.instance.Recorder.ClearRecord();          //prevents player from undoing a non-existent action when starting new level
             Singleton.instance.UI.hintButtonPressed = false;    //allow player to get a hint again
@@ -607,7 +607,7 @@ public class GameManager : MonoBehaviour
                 //Singleton.instance.AudioManager.musicMain.volume = Singleton.instance.AudioManager.soundVolume;
                 Singleton.instance.AudioManager.musicMain.Play();
             }
-        }
+        //}
 
         //enable sidebar buttons if past the tutorial levels
         UI ui = Singleton.instance.UI;

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
-using LoLSDK;
+//using LoLSDK;
 using UnityEngine.InputSystem;
 
 public class UI : MonoBehaviour
@@ -351,11 +351,11 @@ public class UI : MonoBehaviour
             mainSidebarButton.colors = colorBlock;
 
             //TTS check
-            if (Singleton.instance.ttsEnabled)
+            /*if (Singleton.instance.ttsEnabled)
             {
                 mainSidebar.ReadSidebar();
                 Debug.Log("Reading Main Sidebar text");
-            }
+            }*/
 
             if (blockIconSidebar.gameObject.activeSelf)
             {
@@ -375,10 +375,10 @@ public class UI : MonoBehaviour
             mainSidebarButton.colors = colorBlock;
 
             //turn off TTS in case it's currently playing
-            if (Singleton.instance.ttsEnabled)
+            /*if (Singleton.instance.ttsEnabled)
             {
                 ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
-            }
+            }*/
         }
     }
 
@@ -402,11 +402,11 @@ public class UI : MonoBehaviour
             blockIconSidebarButton.colors = colorBlock;
 
             //TTS check
-            if (Singleton.instance.ttsEnabled)
+            /*if (Singleton.instance.ttsEnabled)
             {
                 blockIconSidebar.ReadSidebar();
                 Debug.Log("Reading Block Icon Sidebar text");
-            }
+            }*/
 
             if (mainSidebar.gameObject.activeSelf)
             {
@@ -426,10 +426,10 @@ public class UI : MonoBehaviour
             blockIconSidebarButton.colors = colorBlock;
 
             //turn off TTS in case it's currently playing
-            if (Singleton.instance.ttsEnabled)
+            /*if (Singleton.instance.ttsEnabled)
             {
                 ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
-            }
+            }*/
         }
     }
 

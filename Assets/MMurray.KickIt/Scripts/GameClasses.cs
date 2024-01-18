@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using LoLSDK;
+//using LoLSDK;
 using System;
 using UnityEngine.Playables;
 using static GameManager;
@@ -194,10 +194,10 @@ namespace MMurray.KickIt
 
             //submit current progress
             data.level = gm.level;
-            data.tts_enabled = Singleton.instance.ttsEnabled;
+            //data.tts_enabled = Singleton.instance.ttsEnabled;
             data.music_enabled = Singleton.instance.musicEnabled;
-            LOLSDK.Instance.SubmitProgress(0, data.level + 1, gm.MaxLevels);    //add 1 to level because level starts at 0.
-            LOLSDK.Instance.SaveState(data);
+            //LOLSDK.Instance.SubmitProgress(0, data.level + 1, gm.MaxLevels);    //add 1 to level because level starts at 0.
+            //LOLSDK.Instance.SaveState(data);
         }
 
         //This code is executed after the level is loaded and all objects are instantiated.
@@ -350,7 +350,7 @@ namespace MMurray.KickIt
             
 
             //reached the end
-            Singleton.instance.saveStateFound = false;  //this is to prevent loading a save state for the next level.
+            //Singleton.instance.saveStateFound = false;  //this is to prevent loading a save state for the next level.
             gm.gameState = GameManager.GameState.Normal;
             //play music
             if (Singleton.instance.musicEnabled && !Singleton.instance.AudioManager.musicMain.isPlaying)
@@ -361,7 +361,7 @@ namespace MMurray.KickIt
         }
 
         //This LoL code is used to check for an existing save state when the game runs.
-        public void LoadState(Action<GameData> callback)
+        /*public void LoadState(Action<GameData> callback)
         {
             LOLSDK.Instance.LoadState<GameData>(state =>
             {
@@ -371,7 +371,7 @@ namespace MMurray.KickIt
                 }
 
             });
-        }
+        }*/
 
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using MMurray.GenericCode;
 using MMurray.KickIt;
 using UnityEditor;
-using LoLSDK;
+//using LoLSDK;
 
 public class MenuWindow : MonoBehaviour
 {
@@ -34,7 +34,7 @@ public class MenuWindow : MonoBehaviour
         offColor = new Color(0.9f, 0.2f, 0.2f);
 
         //check tts and music states
-        UpdateTTSState();
+        //UpdateTTSState();
         UpdateMusicState();
         /*if (Singleton.instance.ttsEnabled)
         {
@@ -65,7 +65,7 @@ public class MenuWindow : MonoBehaviour
 
     private void OnEnable()
     {
-        UpdateTTSState();
+        //UpdateTTSState();
         UpdateMusicState();
     }
 
@@ -126,23 +126,23 @@ public class MenuWindow : MonoBehaviour
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
 
         //turn off TTS in case it's currently playing
-        if (Singleton.instance.ttsEnabled)
+        /*if (Singleton.instance.ttsEnabled)
         {
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
-        }
+        }*/
 
-        Singleton.instance.saveState.WriteState(Singleton.instance.gameData);
+        //Singleton.instance.saveState.WriteState(Singleton.instance.gameData);
         ScreenFade sf = Singleton.instance.ScreenFade;
         sf.ChangeSceneFadeOut("Title");
     }
 
-    public void TTSButtonPressed()
+    /*public void TTSButtonPressed()
     {
         Singleton.instance.ttsEnabled = !Singleton.instance.ttsEnabled;
         Debug.Log("TTS Button Pressed. TTS State: " + Singleton.instance.ttsEnabled);
         AudioManager audio = Singleton.instance.AudioManager;
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
-        /*if (Singleton.instance.ttsEnabled)
+        if (Singleton.instance.ttsEnabled)
         {
             ttsButtonText.text = GetText("button_ttsOn");
             ttsButtonText.color = onColor;
@@ -151,9 +151,9 @@ public class MenuWindow : MonoBehaviour
         {
             ttsButtonText.text = GetText("button_ttsOff");
             ttsButtonText.color = offColor;
-        }*/
-        UpdateTTSState();
-    }
+        }
+        //UpdateTTSState();
+    }*/
 
     public void MusicButtonPressed()
     {
@@ -196,7 +196,7 @@ public class MenuWindow : MonoBehaviour
         }
     }
 
-    public void UpdateTTSState()
+    /*public void UpdateTTSState()
     {
         if (Singleton.instance.ttsEnabled)
         {
@@ -211,7 +211,7 @@ public class MenuWindow : MonoBehaviour
             //if TTS is running, turn it off
             ((ILOLSDK_EXTENSION)LOLSDK.Instance.PostMessage).CancelSpeakText();
         }
-    }
+    }*/
 
 
     public void OpenWindow()
