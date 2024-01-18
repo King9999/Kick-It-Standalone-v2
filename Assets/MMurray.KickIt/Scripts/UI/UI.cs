@@ -46,10 +46,11 @@ public class UI : MonoBehaviour
         hintButtonColorOff = new Color(hintButtonColorOn.r * 0.2f, hintButtonColorOn.g * 0.2f, hintButtonColorOn.b * 0.2f);
 
         //UI button text setup
-        menuButtonText.text = GetText("ui_menuButtonText");
-        undoButtonText.text = GetText("ui_undoButtonText");
-        noSpaceText.text = GetText("ui_noSpaceText");
-        hintButtonText.text = GetText("ui_hintButtonText");
+        Singleton singleton = Singleton.instance;
+        menuButtonText.text = singleton.GetText("ui_menuButtonText");
+        undoButtonText.text = singleton.GetText("ui_undoButtonText");
+        noSpaceText.text = singleton.GetText("ui_noSpaceText");
+        hintButtonText.text = singleton.GetText("ui_hintButtonText");
         noSpaceText.gameObject.SetActive(false);
         animateNoSpaceTextCoroutineOn = false;
 

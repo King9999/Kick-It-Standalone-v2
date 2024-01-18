@@ -22,14 +22,15 @@ public class MenuWindow : MonoBehaviour
     void Start()
     {
         //set up button text
-        resetButtonText.text = GetText("button_resetRoom");
-        helpButtonText.text = GetText("button_help");
-        exitButtonText.text = GetText("button_exit");
-        closeMenuButtonText.text = GetText("button_closeMenu");
+        Singleton singleton = Singleton.instance;
+        resetButtonText.text = singleton.GetText("button_resetRoom");
+        helpButtonText.text = singleton.GetText("button_help");
+        exitButtonText.text = singleton.GetText("button_exit");
+        closeMenuButtonText.text = singleton.GetText("button_closeMenu");
         //ttsButtonText.text = GetText("button_ttsOn");
         //musicButtonText.text = GetText("button_musicOn");
-        ttsText.text = GetText("text_tts");
-        musicText.text = GetText("text_music");
+        ttsText.text = singleton.GetText("text_tts");
+        musicText.text = singleton.GetText("text_music");
         onColor = new Color(0.1f, 0.9f, 0.3f);
         offColor = new Color(0.9f, 0.2f, 0.2f);
 
@@ -175,13 +176,14 @@ public class MenuWindow : MonoBehaviour
 
     public void UpdateMusicState()
     {
-        if (Singleton.instance.musicEnabled)
+        Singleton singleton = Singleton.instance;
+        if (singleton.musicEnabled)
         {
-            musicButtonText.text = GetText("button_musicOn");
+            musicButtonText.text = singleton.GetText("button_musicOn");
             musicButtonText.color = onColor;
 
             //play music
-            AudioManager audio = Singleton.instance.AudioManager;
+            AudioManager audio = singleton.AudioManager;
             if (!audio.musicMain.isPlaying)
             {
                 audio.musicMain.Play();
@@ -189,9 +191,9 @@ public class MenuWindow : MonoBehaviour
         }
         else
         {
-            musicButtonText.text = GetText("button_musicOff");
+            musicButtonText.text = singleton.GetText("button_musicOff");
             musicButtonText.color = offColor;
-            AudioManager audio = Singleton.instance.AudioManager;
+            AudioManager audio = singleton.AudioManager;
             audio.musicMain.Stop();
         }
     }
@@ -263,11 +265,11 @@ public class MenuWindow : MonoBehaviour
         transform.localScale = Vector3.one;
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     IEnumerator AnimateWindowClose()
     {

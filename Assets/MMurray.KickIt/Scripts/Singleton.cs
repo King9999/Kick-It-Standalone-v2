@@ -25,7 +25,7 @@ public class Singleton : MonoBehaviour
 
     [Header("---Dialogue and UI text file---")]
     public TextAsset dialogueFile;      //language JSON from LoL re-purposed for standalone
-    public Dialogues dialogueText;
+    //public Dialogues dialogueText;
 
     //save state data
     /*public GameData gameData;

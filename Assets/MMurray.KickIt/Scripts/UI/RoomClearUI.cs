@@ -20,7 +20,7 @@ public class RoomClearUI : MonoBehaviour
         float charPos = 60;
         float xOffset = 300;
         //find the clear text key and populate the list. Must count the number of characters and instantiate object for each one.
-        string clearText = GetText("levelClearText");
+        string clearText = Singleton.instance.GetText("levelClearText");
         for (int i = 0; i < clearText.Length; i++)
         {
             TextMeshProUGUI textChar = Instantiate(textPrefab, transform);
@@ -51,11 +51,11 @@ public class RoomClearUI : MonoBehaviour
         }
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void ShowText()
     {

@@ -15,18 +15,19 @@ public class EndOfLevelWindow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        endOfLevelText.text = GetText("ui_endOfLevelMenuText");
-        resetRoomButtonText.text = GetText("ui_retryRoomButtonText");
-        nextRoomButtonText.text = GetText("ui_nextRoomButtonText");
+        Singleton singleton = Singleton.instance;
+        endOfLevelText.text = singleton.GetText("ui_endOfLevelMenuText");
+        resetRoomButtonText.text = singleton.GetText("ui_retryRoomButtonText");
+        nextRoomButtonText.text = singleton.GetText("ui_nextRoomButtonText");
         //gameObject.SetActive(false);
     }
 
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void OpenWindow()
     {

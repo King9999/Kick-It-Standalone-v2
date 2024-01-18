@@ -28,21 +28,22 @@ public class HelpWindow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        helpButtonOneText.text = GetText("button_howToMove");
-        helpButtonTwoText.text = GetText("button_pushBlock");
-        helpButtonThreeText.text = GetText("button_kick");
-        helpButtonFourText.text = GetText("button_fractionBlock");
-        helpButtonFiveText.text = GetText("button_numeratorDenominator");
-        helpButtonSixText.text = GetText("button_blockIcons");
-        backButtonText.text = GetText("button_back");
+        Singleton singleton = Singleton.instance;
+        helpButtonOneText.text = singleton.GetText("button_howToMove");
+        helpButtonTwoText.text = singleton.GetText("button_pushBlock");
+        helpButtonThreeText.text = singleton.GetText("button_kick");
+        helpButtonFourText.text = singleton.GetText("button_fractionBlock");
+        helpButtonFiveText.text = singleton.GetText("button_numeratorDenominator");
+        helpButtonSixText.text = singleton.GetText("button_blockIcons");
+        backButtonText.text = singleton.GetText("button_back");
         tutorialWindow.gameObject.SetActive(false);
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void HelpButtonOneClicked()
     {
@@ -56,7 +57,7 @@ public class HelpWindow : MonoBehaviour
             
 
         //videoPlayer.clip = videoClips[0];
-        tutorialWindow.tutorialText.text = GetText("tutorial_howToMove");
+        tutorialWindow.tutorialText.text = Singleton.instance.GetText("tutorial_howToMove");
         tutorialWindow.tutorialText.fontSize = fontSize;
         /*if (Singleton.instance.ttsEnabled)
         {
@@ -75,7 +76,7 @@ public class HelpWindow : MonoBehaviour
         AudioManager audio = Singleton.instance.AudioManager;
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
         //videoPlayer.clip = videoClips[1];
-        tutorialWindow.tutorialText.text = GetText("tutorial_pushBlock");
+        tutorialWindow.tutorialText.text = Singleton.instance.GetText("tutorial_pushBlock");
         tutorialWindow.tutorialText.fontSize = fontSize;
         /*if (Singleton.instance.ttsEnabled)
         {
@@ -93,7 +94,7 @@ public class HelpWindow : MonoBehaviour
         AudioManager audio = Singleton.instance.AudioManager;
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
         //videoPlayer.clip = videoClips[2];
-        tutorialWindow.tutorialText.text = GetText("tutorial_kick");
+        tutorialWindow.tutorialText.text = Singleton.instance.GetText("tutorial_kick");
         tutorialWindow.tutorialText.fontSize = fontSize;
         /*if (Singleton.instance.ttsEnabled)
         {
@@ -111,7 +112,7 @@ public class HelpWindow : MonoBehaviour
         AudioManager audio = Singleton.instance.AudioManager;
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
         //videoPlayer.clip = videoClips[3];
-        tutorialWindow.tutorialText.text = GetText("tutorial_fractionBlock");
+        tutorialWindow.tutorialText.text = Singleton.instance.GetText("tutorial_fractionBlock");
         tutorialWindow.tutorialText.fontSize = fontSize;
         /*if (Singleton.instance.ttsEnabled)
         {
@@ -127,7 +128,7 @@ public class HelpWindow : MonoBehaviour
         tutorialWindow.ShowFractionImage(true); //only time we see this image
         AudioManager audio = Singleton.instance.AudioManager;
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
-        tutorialWindow.tutorialText.text = GetText("tutorial_numeratorDenominator");
+        tutorialWindow.tutorialText.text = Singleton.instance.GetText("tutorial_numeratorDenominator");
         tutorialWindow.tutorialText.fontSize = fontSize - 4;
         /*if (Singleton.instance.ttsEnabled)
         {
@@ -144,7 +145,7 @@ public class HelpWindow : MonoBehaviour
         tutorialWindow.ShowFractionImage(false); 
         AudioManager audio = Singleton.instance.AudioManager;
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
-        tutorialWindow.tutorialText.text = GetText("tutorial_blockIcons");
+        tutorialWindow.tutorialText.text = Singleton.instance.GetText("tutorial_blockIcons");
         tutorialWindow.tutorialText.fontSize = fontSize - 4;
         /*if (Singleton.instance.ttsEnabled)
         {

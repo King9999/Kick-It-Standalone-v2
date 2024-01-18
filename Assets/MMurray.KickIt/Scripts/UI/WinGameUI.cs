@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using LoLSDK;
+//using LoLSDK;
 using MMurray.GenericCode;
 using UnityEngine.UI;
 
@@ -14,17 +14,18 @@ public class WinGameUI : MonoBehaviour
 
     private void Start()
     {
-        winText.text = GetText("allLevelsClearText");
-        exitButtonText.text = GetText("ui_exitButtonText");
-        returnButtonText.text = GetText("ui_returnButtonText");
+        Singleton singleton = Singleton.instance;
+        winText.text = singleton.GetText("allLevelsClearText");
+        exitButtonText.text = singleton.GetText("ui_exitButtonText");
+        returnButtonText.text = singleton.GetText("ui_returnButtonText");
         gameObject.SetActive(false);
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void ExitButtonClicked()
     {
@@ -33,8 +34,8 @@ public class WinGameUI : MonoBehaviour
         audio.soundSource.PlayOneShot(audio.click, audio.soundVolume);
 
         GameManager gm = Singleton.instance.GameManager;
-        LOLSDK.Instance.SubmitProgress(0, gm.level + 1, gm.MaxLevels);
-        LOLSDK.Instance.CompleteGame();
+        //LOLSDK.Instance.SubmitProgress(0, gm.level + 1, gm.MaxLevels);
+        //LOLSDK.Instance.CompleteGame();
     }
 
     public void ReturnButtonClicked()

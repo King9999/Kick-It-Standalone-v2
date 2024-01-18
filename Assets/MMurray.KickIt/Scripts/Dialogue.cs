@@ -4,7 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using LoLSDK;
 using UnityEngine.Video;
 using UnityEditor;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -37,11 +36,11 @@ public class Dialogue : MonoBehaviour
         vidRenderer.gameObject.SetActive(false);
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void ShowDialogue(string key)
     {
@@ -83,8 +82,9 @@ public class Dialogue : MonoBehaviour
                 vidPlayer.Play();
             }
         }
-        Singleton.instance.DialogueManager.dialogueOpen = true;
-        dialogueText.text = GetText(key);
+        Singleton singleton = Singleton.instance;
+        singleton.DialogueManager.dialogueOpen = true;
+        dialogueText.text = singleton.GetText(key);
 
        
 
@@ -149,7 +149,7 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator ShowPrompt()
     {
-        promptText.text = GetText("dialoguePrompt");
+        promptText.text = Singleton.instance.GetText("dialoguePrompt");
         canAdvanceDialogue = true;
         yield return null;
     }

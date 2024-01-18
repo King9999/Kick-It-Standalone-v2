@@ -56,11 +56,11 @@ public class LevelDisplayUI : MonoBehaviour
         }
     }
 
-    string GetText(string key, int level)
+    /*string GetText(string key, int level)
     {
         string value = SharedState.LanguageDefs?[key] + " " + level.ToString();
         return value ?? "--missing--";
-    }
+    }*/
 
     public void ShowText()
     {
@@ -88,7 +88,7 @@ public class LevelDisplayUI : MonoBehaviour
         float charPos = 60;
         float xOffset = 300;
         //int level = Singleton.instance.GameManager.level <= 1 ? Singleton.instance.GameManager.level + 1 : Singleton.instance.GameManager.level - 1;
-        string levelText = GetText(key, level);
+        string levelText = Singleton.instance.GetText(key) + " " + level;
         //levelText.text = GetText(key, level);
 
         for (int i = 0; i < text.Count; i++)

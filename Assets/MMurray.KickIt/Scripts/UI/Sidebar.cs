@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using LoLSDK;
+//using LoLSDK;
 
 //provides persistent information to the player
 public class Sidebar : MonoBehaviour
@@ -46,7 +46,7 @@ public class Sidebar : MonoBehaviour
         //populate text
         for (int i = 0; i < sidebarKeys.Count; i++) 
         {
-            sidebarText[i].text = GetText(sidebarKeys[i]);
+            sidebarText[i].text = Singleton.instance.GetText(sidebarKeys[i]);
         }
 
         //gameObject.SetActive(false);
@@ -63,19 +63,19 @@ public class Sidebar : MonoBehaviour
         gameObject.SetActive(sidebarOpen); 
     }
 
-    public void ReadSidebar()
+    /*public void ReadSidebar()
     {
         StartCoroutine(ReadSidebarText());
-    }
+    }*/
 
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
-    IEnumerator ReadSidebarText()
+    /*IEnumerator ReadSidebarText()
     {
         if (sidebarKeys.Count == 1)
         {
@@ -89,7 +89,7 @@ public class Sidebar : MonoBehaviour
                 yield return new WaitForSeconds(5);
             }
         }
-    }
+    }*/
 
     /*IEnumerator ActivateSidebar(bool sidebarOpen)
     {

@@ -576,7 +576,7 @@ MonoBehaviour:
   dialogueImage: {fileID: 3649148727268570002}
   dialogueKeyList: []
   displayIndex: 0
-  promptTimer: 4
+  promptTimer: 1
   vidPlayer: {fileID: 4743999648866356902}
   vidRenderer: {fileID: 5909517157684625440}
   videoName: 

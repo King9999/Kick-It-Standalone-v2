@@ -24,22 +24,23 @@ public class Credits : MonoBehaviour
         UpdateLanguage();
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     void UpdateLanguage()
     {
-        backButtonText.text = GetText("ui_backButtonText");
-        mainCreditText.text = GetText("credit_main");
-        gameDesignText.text = GetText("credit_gameDesign");
-        programmerText.text = GetText("credit_program");
-        artText.text = GetText("credit_art");
-        uiText.text = GetText("credit_ui");
-        musicText.text = GetText("credit_music");
-        soundText.text = GetText("credit_sfx");
+        Singleton singleton = Singleton.instance;
+        backButtonText.text = singleton.GetText("ui_backButtonText");
+        mainCreditText.text = singleton.GetText("credit_main");
+        gameDesignText.text = singleton.GetText("credit_gameDesign");
+        programmerText.text = singleton.GetText("credit_program");
+        artText.text = singleton.GetText("credit_art");
+        uiText.text = singleton.GetText("credit_ui");
+        musicText.text = singleton.GetText("credit_music");
+        soundText.text = singleton.GetText("credit_sfx");
     }
 
     public void OnBackButtonClicked()

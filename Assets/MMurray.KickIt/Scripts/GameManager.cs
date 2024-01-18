@@ -281,11 +281,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void LoadLevel(int level)
     {

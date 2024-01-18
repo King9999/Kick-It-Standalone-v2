@@ -24,11 +24,11 @@ public class HintDialogue : MonoBehaviour
         //dialogueImage.gameObject.SetActive(false);
     }
 
-    string GetText(string key)
+    /*string GetText(string key)
     {
         string value = SharedState.LanguageDefs?[key];
         return value ?? "--missing--";
-    }
+    }*/
 
     public void ShowDialogue(string key)
     {
@@ -42,7 +42,7 @@ public class HintDialogue : MonoBehaviour
             dialogueImage.gameObject.SetActive(true);
         }*/
 
-        dialogueText.text = GetText(key);
+        dialogueText.text = Singleton.instance.GetText(key);
 
         Debug.Log("Dialogue text key is " + key);
         //Debug.Log("TTS State: " + Singleton.instance.ttsEnabled);
