@@ -1,0 +1,270 @@
+{
+	"rooms":
+	[
+		{
+			"roomNum":"tutorial_1", "rows":
+			[
+				{"row":"0, x, x, x, x, x, x, x, x, 0"},
+				{"row":"0, P, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, 1, x, x, x, x, 1, 1, 0"},
+				{"row":"0, 1, T, B, 1, 1, B, 1, 1, 0"},
+				{"row":"0, 1, 1, x, x, x, x, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":0, "blockRow":3, "blockCol":3, "blockValue":"1/2"},
+				{"blockId":1, "blockColor":0, "blockRow":3, "blockCol":6, "blockValue":"1/2"}
+			],
+			"triggerLocations":
+			[
+				{"triggerId":1, "triggerRow":3, "triggerCol":2}
+			]
+			
+		},
+		
+		{
+			"roomNum":"tutorial_2", "rows":
+			[
+				{"row":"0, x, x, 0, 0, 0, 0, 0, 0, 0"},
+				{"row":"0, P, 1, 0, 0, 0, 0, 0, 0, 0"},
+				{"row":"0, 1, 1, x, x, x, x, x, x, 0"},
+				{"row":"0, 1, 1, B, 1, 1, 1, B, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, 1, T, B, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":0, "blockRow":3, "blockCol":3, "blockValue":"1/2"},
+				{"blockId":1, "blockColor":0, "blockRow":3, "blockCol":7, "blockValue":"1/2"},
+				{"blockId":2, "blockColor":0, "blockRow":5, "blockCol":4, "blockValue":"1/4"}
+			],
+			"triggerLocations":
+			[
+				
+			]
+			
+		},
+
+		{
+			"roomNum":"room_1", "rows":
+			[
+				{"row":"0, x, x, x, x, x, x, x, x, 0"},
+				{"row":"0, 1, 1, 1, P, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, x, 1, 1, 1, 1, B, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, x, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, B, x, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, B, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":0, "blockRow":2, "blockCol":7, "blockValue":"3/4"},
+				{"blockId":1, "blockColor":0, "blockRow":5, "blockCol":2, "blockValue":"3/6"},
+				{"blockId":2, "blockColor":0, "blockRow":6, "blockCol":7, "blockValue":"3/4"}
+			],
+			"triggerLocations":
+			[
+				{"triggerId":3, "triggerRow":1, "triggerCol":4}
+			]
+			
+		},
+
+		{
+			"roomNum":"room_2", "rows":
+			[
+				{"row":"0, x, x, x, x, x, x, x, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, B, 1, 1, 1, 0"},
+				{"row":"0, 1, P, B, x, B, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, B, 1, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":0, "blockRow":3, "blockCol":3, "blockValue":"1/6"},
+				{"blockId":1, "blockColor":0, "blockRow":4, "blockCol":4, "blockValue":"1/6"},
+				{"blockId":2, "blockColor":0, "blockRow":2, "blockCol":4, "blockValue":"3/8"},
+				{"blockId":3, "blockColor":0, "blockRow":3, "blockCol":5, "blockValue":"3/8"}
+			],
+			"triggerLocations":
+			[
+				
+			]
+			
+		},
+
+		{
+			"roomNum":"room_3", "rows":
+			[
+				{"row":"0, x, x, x, x, x, x, x, x, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, B, 1, x, x, 1, B, 1, 0"},
+				{"row":"0, 1, 1, B, P, 1, B, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, x, x, 1, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, B, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":0, "blockRow":3, "blockCol":3, "blockValue":"5/4"},
+				{"blockId":1, "blockColor":0, "blockRow":3, "blockCol":6, "blockValue":"1/4"},
+				{"blockId":2, "blockColor":0, "blockRow":2, "blockCol":2, "blockValue":"5/6"},
+				{"blockId":3, "blockColor":0, "blockRow":2, "blockCol":7, "blockValue":"5/6"},
+				{"blockId":4, "blockColor":0, "blockRow":5, "blockCol":8, "blockValue":"5/4"}
+			],
+			"triggerLocations":
+			[
+			]
+			
+		},
+
+		{
+			"roomNum":"room_4", "rows":
+			[
+				{"row":"0, x, x, x, x, x, x, x, x, x, x, 0, 0, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0"},
+				{"row":"0, 1, 1, 1, B, B, B, B, B, 1, 1, x, x, 0"},
+				{"row":"0, 1, B, x, 1, 1, 1, 1, 1, 1, T, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, P, 1, 1, B, 1, 1, 0"},
+				{"row":"0, 0, 0, B, B, B, 1, 1, 1, B, 1, B, 1, 0"},
+				{"row":"0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":0, "blockRow":3, "blockCol":2, "blockValue":"7/6"},
+				{"blockId":1, "blockColor":0, "blockRow":2, "blockCol":4, "blockValue":"1/6"},
+				{"blockId":2, "blockColor":0, "blockRow":2, "blockCol":5, "blockValue":"1/6"},
+				{"blockId":3, "blockColor":0, "blockRow":2, "blockCol":6, "blockValue":"1/6"},
+				{"blockId":4, "blockColor":0, "blockRow":2, "blockCol":7, "blockValue":"1/6"},
+				{"blockId":5, "blockColor":0, "blockRow":2, "blockCol":8, "blockValue":"1/6"},
+				{"blockId":6, "blockColor":0, "blockRow":5, "blockCol":3, "blockValue":"1/6"},
+				{"blockId":7, "blockColor":0, "blockRow":5, "blockCol":4, "blockValue":"1/6"},
+				{"blockId":8, "blockColor":0, "blockRow":5, "blockCol":5, "blockValue":"1/6"},
+				{"blockId":9, "blockColor":0, "blockRow":5, "blockCol":9, "blockValue":"7/6"},
+				{"blockId":10, "blockColor":0, "blockRow":4, "blockCol":10, "blockValue":"6/6"},
+				{"blockId":11, "blockColor":0, "blockRow":5, "blockCol":11, "blockValue":"7/8"}
+			],
+			"triggerLocations":
+			[
+				{"triggerId":5, "triggerRow":3, "triggerCol":10}
+			]
+			
+		},
+
+		{
+			"roomNum":"room_5", "rows":
+			[
+				{"row":"0, x, x, x, x, x, x, x, x, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, B, 1, 1, 1, B, 1, 1, 0"},
+				{"row":"0, 1, 1, B, 1, B, x, 1, 1, 0"},
+				{"row":"0, 1, 1, 1, P, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, x, B, 1, B, 1, 1, 1, 0"},
+				{"row":"0, 1, B, 1, 1, 1, B, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":0, "blockRow":2, "blockCol":2, "blockValue":"5/4"},
+				{"blockId":1, "blockColor":0, "blockRow":2, "blockCol":6, "blockValue":"6/3"},
+				{"blockId":2, "blockColor":0, "blockRow":3, "blockCol":3, "blockValue":"6/8"},
+				{"blockId":3, "blockColor":0, "blockRow":3, "blockCol":5, "blockValue":"5/6"},
+				{"blockId":4, "blockColor":0, "blockRow":5, "blockCol":3, "blockValue":"5/8"},
+				{"blockId":5, "blockColor":0, "blockRow":5, "blockCol":5, "blockValue":"3/4"},
+				{"blockId":6, "blockColor":0, "blockRow":6, "blockCol":2, "blockValue":"6/3"},
+				{"blockId":7, "blockColor":0, "blockRow":6, "blockCol":6, "blockValue":"5/4"}
+			],
+			"triggerLocations":
+			[
+				
+			]
+			
+		},
+
+		{
+			"roomNum":"room_6", "rows":
+			[
+				{"row":"0, 0, 0, x, x, x, x, x, 0, 0, 0, 0, 0"},
+				{"row":"0, 0, 0, 1, 1, 1, 1, 1, x, x, x, 0, 0"},
+				{"row":"0, x, x, B, 1, 1, 1, 1, B, 1, 1, x, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, B, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, B, 1, 1, 1, 1, 1, 1, 1, B, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, B, P, 1, 1, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":1, "blockRow":2, "blockCol":3, "blockValue":"6/2"},
+				{"blockId":1, "blockColor":1, "blockRow":2, "blockCol":8, "blockValue":"5/4"},
+				{"blockId":2, "blockColor":1, "blockRow":5, "blockCol":6, "blockValue":"2/3"},
+				{"blockId":3, "blockColor":0, "blockRow":3, "blockCol":6, "blockValue":"2/3"},
+				{"blockId":4, "blockColor":1, "blockRow":4, "blockCol":2, "blockValue":"6/2"},
+				{"blockId":5, "blockColor":1, "blockRow":4, "blockCol":10, "blockValue":"6/4"}
+			],
+			"triggerLocations":
+			[
+			
+			]
+			
+		},
+
+		{
+			"roomNum":"room_7", "rows":
+			[
+				{"row":"0, x, x, 0, x, x, 0, x, 0, 0"},
+				{"row":"0, 1, 1, x, 1, 1, x, 1, 0, 0"},
+				{"row":"0, 1, 1, B, 1, 1, B, 1, x, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, P, 1, 1, B, B, 1, B, 0"},
+				{"row":"0, 1, 1, 1, 0, 1, 1, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":1, "blockRow":4, "blockCol":5, "blockValue":"7/8"},
+				{"blockId":1, "blockColor":1, "blockRow":4, "blockCol":6, "blockValue":"7/8"},
+				{"blockId":2, "blockColor":0, "blockRow":2, "blockCol":3, "blockValue":"3/6"},
+				{"blockId":3, "blockColor":0, "blockRow":2, "blockCol":6, "blockValue":"3/6"},
+				{"blockId":4, "blockColor":0, "blockRow":4, "blockCol":8, "blockValue":"2/8"}
+			],
+			"triggerLocations":
+			[
+				
+			]
+			
+		},
+
+		{
+			"roomNum":"room_8", "rows":
+			[
+				{"row":"0, x, x, x, x, x, x, x, x, 0"},
+				{"row":"0, P, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, B, 1, x, x, 1, B, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 1, B, 1, x, x, 1, B, 1, 0"},
+				{"row":"0, 1, 1, 1, 1, 1, 1, 1, 1, 0"},
+				{"row":"0, 0, 0, 0, 0, 0, 0, 0, 0, 0"}
+			],
+			"blockData":
+			[
+				{"blockId":0, "blockColor":1, "blockRow":2, "blockCol":2, "blockValue":"1/2"},
+				{"blockId":1, "blockColor":1, "blockRow":2, "blockCol":7, "blockValue":"2/3"},
+				{"blockId":2, "blockColor":1, "blockRow":4, "blockCol":2, "blockValue":"2/3"},
+				{"blockId":3, "blockColor":1, "blockRow":4, "blockCol":7, "blockValue":"1/2"}
+			],
+			"triggerLocations":
+			[
+				
+			]
+			
+		}
+		
+	]
+}

@@ -1,0 +1,1141 @@
+{
+    "timeline": {
+        "title": "MainTimeline",
+        "type": "MainTimeline",
+        "status": 0,
+        "subitems": [
+            {
+                "title": "Video Track",
+                "type": "MainVideoTrack",
+                "status": 0,
+                "subitems": [
+                    {
+                        "title": "2023-11-28 15-49-24",
+                        "type": "MediaFileBlock",
+                        "background": 4229545215,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{6E9E0D23-236B-4F8F-BC87-459221C8D7C7}",
+                        "tstart": 0.0,
+                        "tduration": 3009.999999999998,
+                        "restype": "MediaFileResource",
+                        "resid": "AD2F274893830A2F9C80C80B7578102C",
+                        "attribute": {
+                            "version": 0,
+                            "type": 1,
+                            "videoIndex": 0,
+                            "audioIndex": 1,
+                            "videoEnabled": true,
+                            "audioEnabled": false,
+                            "VideoAttribute": {
+                                "version": 0,
+                                "streamIndex": 0,
+                                "trackDuration": 55.184,
+                                "deinterlace": false,
+                                "baseInfoInited": true,
+                                "LensCorrection": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "valid": false,
+                                    "focalPosX": 0.5,
+                                    "focalPosY": 0.5,
+                                    "hDeg": 118.2,
+                                    "vDeg": 69.5,
+                                    "dDeg": 133.6,
+                                    "k2": 0.022,
+                                    "cameraID": "custom",
+                                    "fovID": "custom"
+                                },
+                                "VideoCropper": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 27.27,
+                                        "fileCuttedDuration": 3.0100000000000017,
+                                        "blockDuration": 3.009999999999998
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 1920,
+                                        "srcHeight": 1080,
+                                        "targetWidth": 1920,
+                                        "targetHeight": 1080
+                                    },
+                                    "isPic": false,
+                                    "staticNode": {
+                                        "time": 0.0,
+                                        "duration": 0.0,
+                                        "posX": 0.5071258910351754,
+                                        "posY": 0.5327695561978013,
+                                        "sizeX": 0.22327790948257474,
+                                        "sizeY": 0.42283298062765325,
+                                        "ratioMode": 10,
+                                        "angle": -0.0,
+                                        "smoothness": true,
+                                        "smoothType": 0,
+                                        "pod": 0.0
+                                    },
+                                    "dynamicNodes": []
+                                },
+                                "BaseTransform": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "angle": 0,
+                                    "vFlip": true
+                                },
+                                "ChromaKey": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "red": 0,
+                                    "green": 255,
+                                    "blue": 0,
+                                    "CHROMAKEY_TOLERANCE": 26,
+                                    "CHROMAKEY_SMOOTHNESS": 23,
+                                    "CHROMAKEY_EDGE_THICKNESS": 0,
+                                    "CHROMAKEY_EDGE_FEATHER": 0
+                                },
+                                "VideoLUT": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "LutName": "",
+                                    "strength": 1.0
+                                },
+                                "ColorEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "COLOR_TEMPERATURE": 0.0,
+                                    "COLOR_TINT": 0.0,
+                                    "COLOR_EXPOSURE": 0.0,
+                                    "COLOR_BRIGHTNESS": 0.0,
+                                    "COLOR_CONTRAST": 0.0,
+                                    "COLOR_SATURATION": 0.0,
+                                    "COLOR_VIBRANCE": 0.0,
+                                    "COLOR_HIGHLIGHTS": 0.0,
+                                    "COLOR_SHADOWS": 0.0,
+                                    "COLOR_WHITES": 0.0,
+                                    "COLOR_BLACKS": 0.0,
+                                    "HSL_RED": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_ORANGE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_YELLOW": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_GREEN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_CYAN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_BLUE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_PURPLE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    }
+                                },
+                                "Sharpen": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "amount": 500,
+                                    "radius": 2,
+                                    "threshold": 0
+                                },
+                                "Denoise": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "enableDenoise": false,
+                                    "deviation": 5.0,
+                                    "coefficient": 2.0,
+                                    "edgeThreshold": 0.3,
+                                    "enableAutoLevel": false,
+                                    "autoLevelK1": 0.5
+                                },
+                                "VignetteEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "VIGNETTE_AMOUNT": 0,
+                                    "VIGNETTE_SIZE": 100,
+                                    "VIGNETTE_ROUNDNESS": 0,
+                                    "VIGNETTE_FEATHER": 50,
+                                    "VIGNETTE_INNER_LIGHT": 0
+                                },
+                                "VideoTransformer": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 27.27,
+                                        "fileCuttedDuration": 3.0100000000000017,
+                                        "blockDuration": 3.009999999999998
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 429,
+                                        "srcHeight": 457,
+                                        "targetWidth": 480,
+                                        "targetHeight": 480,
+                                        "centerPosX": 0.5,
+                                        "centerPosY": 0.5,
+                                        "sizeX": 0.9387308533916849,
+                                        "sizeY": 1.0,
+                                        "angle": 0.0
+                                    },
+                                    "overlay": false,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 0.0,
+                                    "fadeInDirect": 255,
+                                    "fadeOutDirect": 255,
+                                    "baseInfoInited": true
+                                },
+                                "Compositing": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 27.27,
+                                        "fileCuttedDuration": 3.0100000000000017,
+                                        "blockDuration": 3.009999999999998
+                                    },
+                                    "mode": 0,
+                                    "opacity": 1.0,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 0.0,
+                                    "fadeInEnabeld": false,
+                                    "fadeOutEnabled": false
+                                }
+                            },
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 1.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 27.27,
+                                        "fileCuttedDuration": 3.0100000000000017,
+                                        "handledTotalDuration": 55.184,
+                                        "handledCuttedStart": 27.27,
+                                        "handledCuttedDuration": 3.0100000000000017
+                                    },
+                                    "curve": "TmM0AQUAAAAAAAAAAPLqQAEAAAADAAAABwAAAP////8AAHBC/38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAIDkYAAAAAAMHBQAAAAAAAAAAAMxaiHtVM2kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvqYj0f6HaQAAAAAAAAAAAAQEAAAAAAACvqYj0f6HaQAAAAAAAAAAAhhtk9v//7z8AAAAAAAAAAKxVqUPMbdhCB4oAro282kAAAAAAAAAAAAAAgA9k19pAAAAAAAAAAACvqYj0f6HaQAAAAAAAAAAAAAAAAADy2kAAAAAAAAAAAAEAAAAAAAAAAAAAAADy2kAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAACE39RCSoxTRAAAAEqMxdtAAAAAAAAAAACSHSJUg6fcQAAAAAAAAAAAAAAAAADy2kAAAAAAAAAAAL/pKwIAkt1AAAAAAAAAAAABAAAAAAAAAL/pKwIAkt1AAAAAAAAAAACVJKsAAADwPwAAAAAAAAAArnxqRAAAAAC/6SsCAJLdQAAAAAAAAAAAAAAAWFXk5kAAAAAAAAAAAL/pKwIAkt1AAAAAAAAAAAAAAAAAAPLqQAAAAAAAAAAAAQAAAAAAAAAAAAAAAPLqQAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAFW1AUYAAAAAv+krAgCS3UAAAAAAAAAAAAAAAFhV5OZAAAAAAAAAAAC/6SsCAJLdQAAAAAAAAAAAAAAAAADy6kAAAAAAAAAAAAEBAAAAAAAA"
+                                },
+                                "extraSpeed": 1.000000000000001,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "2023-11-28 15-49-24",
+                        "type": "MediaFileBlock",
+                        "background": 4229545215,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{0A9F9EA0-BF8F-477E-9059-C6A4978A53AA}",
+                        "tstart": 3009.999999999998,
+                        "tduration": 940.0000000000022,
+                        "restype": "MediaFileResource",
+                        "resid": "AD2F274893830A2F9C80C80B7578102C",
+                        "attribute": {
+                            "version": 0,
+                            "type": 1,
+                            "videoIndex": 0,
+                            "audioIndex": 1,
+                            "videoEnabled": true,
+                            "audioEnabled": false,
+                            "VideoAttribute": {
+                                "version": 0,
+                                "streamIndex": 0,
+                                "trackDuration": 55.184,
+                                "deinterlace": false,
+                                "baseInfoInited": true,
+                                "LensCorrection": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "valid": false,
+                                    "focalPosX": 0.5,
+                                    "focalPosY": 0.5,
+                                    "hDeg": 118.2,
+                                    "vDeg": 69.5,
+                                    "dDeg": 133.6,
+                                    "k2": 0.022,
+                                    "cameraID": "custom",
+                                    "fovID": "custom"
+                                },
+                                "VideoCropper": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 30.28,
+                                        "fileCuttedDuration": 0.9400000000000013,
+                                        "blockDuration": 0.9400000000000022
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 1920,
+                                        "srcHeight": 1080,
+                                        "targetWidth": 1920,
+                                        "targetHeight": 1080
+                                    },
+                                    "isPic": false,
+                                    "staticNode": {
+                                        "time": 0.0,
+                                        "duration": 0.0,
+                                        "posX": 0.5071258910351754,
+                                        "posY": 0.5327695561978013,
+                                        "sizeX": 0.22327790948257474,
+                                        "sizeY": 0.42283298062765325,
+                                        "ratioMode": 10,
+                                        "angle": -0.0,
+                                        "smoothness": true,
+                                        "smoothType": 0,
+                                        "pod": 0.0
+                                    },
+                                    "dynamicNodes": []
+                                },
+                                "BaseTransform": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "angle": 0,
+                                    "vFlip": true
+                                },
+                                "ChromaKey": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "red": 0,
+                                    "green": 255,
+                                    "blue": 0,
+                                    "CHROMAKEY_TOLERANCE": 26,
+                                    "CHROMAKEY_SMOOTHNESS": 23,
+                                    "CHROMAKEY_EDGE_THICKNESS": 0,
+                                    "CHROMAKEY_EDGE_FEATHER": 0
+                                },
+                                "VideoLUT": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "LutName": "",
+                                    "strength": 1.0
+                                },
+                                "ColorEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "COLOR_TEMPERATURE": 0.0,
+                                    "COLOR_TINT": 0.0,
+                                    "COLOR_EXPOSURE": 0.0,
+                                    "COLOR_BRIGHTNESS": 0.0,
+                                    "COLOR_CONTRAST": 0.0,
+                                    "COLOR_SATURATION": 0.0,
+                                    "COLOR_VIBRANCE": 0.0,
+                                    "COLOR_HIGHLIGHTS": 0.0,
+                                    "COLOR_SHADOWS": 0.0,
+                                    "COLOR_WHITES": 0.0,
+                                    "COLOR_BLACKS": 0.0,
+                                    "HSL_RED": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_ORANGE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_YELLOW": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_GREEN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_CYAN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_BLUE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_PURPLE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    }
+                                },
+                                "Sharpen": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "amount": 500,
+                                    "radius": 2,
+                                    "threshold": 0
+                                },
+                                "Denoise": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "enableDenoise": false,
+                                    "deviation": 5.0,
+                                    "coefficient": 2.0,
+                                    "edgeThreshold": 0.3,
+                                    "enableAutoLevel": false,
+                                    "autoLevelK1": 0.5
+                                },
+                                "VignetteEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "VIGNETTE_AMOUNT": 0,
+                                    "VIGNETTE_SIZE": 100,
+                                    "VIGNETTE_ROUNDNESS": 0,
+                                    "VIGNETTE_FEATHER": 50,
+                                    "VIGNETTE_INNER_LIGHT": 0
+                                },
+                                "VideoTransformer": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 30.28,
+                                        "fileCuttedDuration": 0.9400000000000013,
+                                        "blockDuration": 0.9400000000000022
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 429,
+                                        "srcHeight": 457,
+                                        "targetWidth": 480,
+                                        "targetHeight": 480,
+                                        "centerPosX": 0.5,
+                                        "centerPosY": 0.5,
+                                        "sizeX": 0.9387308533916849,
+                                        "sizeY": 1.0,
+                                        "angle": 0.0
+                                    },
+                                    "overlay": false,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 0.0,
+                                    "fadeInDirect": 255,
+                                    "fadeOutDirect": 255,
+                                    "baseInfoInited": true
+                                },
+                                "Compositing": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 30.28,
+                                        "fileCuttedDuration": 0.9400000000000013,
+                                        "blockDuration": 0.9400000000000022
+                                    },
+                                    "mode": 0,
+                                    "opacity": 1.0,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 0.0,
+                                    "fadeInEnabeld": false,
+                                    "fadeOutEnabled": false
+                                }
+                            },
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 1.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 30.28,
+                                        "fileCuttedDuration": 0.9400000000000013,
+                                        "handledTotalDuration": 55.184,
+                                        "handledCuttedStart": 30.28,
+                                        "handledCuttedDuration": 0.9400000000000013
+                                    },
+                                    "curve": "TmM0AQQAAAAAAAAAAPLqQAEAAAACAAAABwAAAP////8AAHBC/38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAFW1HUYAAACgqrbDQAAAAAAAAAAAkh0iVIOn3EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/6SsCAJLdQAAAAAAAAAAAAQEAAAAAAAC/6SsCAJLdQAAAAAAAAAAAlSSrAAAA8D8AAAAAAAAAAK58akSQ8ppDcCYvSnnf3UAAAAAAAAAAADbCrtfgLd5AAAAAAAAAAAC/6SsCAJLdQAAAAAAAAAAAAAAAAAB93kAAAAAAAAAAAAEAAAAAAAAAAAAAAAB93kAAAAAAAAAAAAbEFu3//+8/AAAAAAAAAABRPp5DAAAAAAAAAAAAfd5AAAAAAAAAAAAAAAAAgAvnQAAAAAAAAAAAAAAAAAB93kAAAAAAAAAAAAAAAAAA8upAAAAAAAAAAAABAAAAAAAAAAAAAAAA8upAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAKD5RQAAAABwJi9Ked/dQAAAAAAAAAAA3/OiuOAt3kAAAAAAAAAAAL/pKwIAkt1AAAAAAAAAAACpMfTg/3zeQAAAAAAAAAAAAQEAAAAAAAA="
+                                },
+                                "extraSpeed": 0.999999999999999,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    },
+                    {
+                        "title": "2023-11-28 15-49-24",
+                        "type": "MediaFileBlock",
+                        "background": 4229545215,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{5F799EC3-4825-478D-BB7A-799F3C94FC9C}",
+                        "tstart": 3950.0000000000006,
+                        "tduration": 4095.532879818592,
+                        "restype": "MediaFileResource",
+                        "resid": "AD2F274893830A2F9C80C80B7578102C",
+                        "attribute": {
+                            "version": 0,
+                            "type": 1,
+                            "videoIndex": 0,
+                            "audioIndex": 1,
+                            "videoEnabled": true,
+                            "audioEnabled": false,
+                            "VideoAttribute": {
+                                "version": 0,
+                                "streamIndex": 0,
+                                "trackDuration": 55.184,
+                                "deinterlace": false,
+                                "baseInfoInited": true,
+                                "LensCorrection": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "valid": false,
+                                    "focalPosX": 0.5,
+                                    "focalPosY": 0.5,
+                                    "hDeg": 118.2,
+                                    "vDeg": 69.5,
+                                    "dDeg": 133.6,
+                                    "k2": 0.022,
+                                    "cameraID": "custom",
+                                    "fovID": "custom"
+                                },
+                                "VideoCropper": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 35.53666666666666,
+                                        "fileCuttedDuration": 4.095532879818592,
+                                        "blockDuration": 4.095532879818592
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 1920,
+                                        "srcHeight": 1080,
+                                        "targetWidth": 1920,
+                                        "targetHeight": 1080
+                                    },
+                                    "isPic": false,
+                                    "staticNode": {
+                                        "time": 0.0,
+                                        "duration": 0.0,
+                                        "posX": 0.5071258910351754,
+                                        "posY": 0.5327695561978013,
+                                        "sizeX": 0.22327790948257474,
+                                        "sizeY": 0.42283298062765325,
+                                        "ratioMode": 10,
+                                        "angle": -0.0,
+                                        "smoothness": true,
+                                        "smoothType": 0,
+                                        "pod": 0.0
+                                    },
+                                    "dynamicNodes": []
+                                },
+                                "BaseTransform": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "angle": 0,
+                                    "vFlip": true
+                                },
+                                "ChromaKey": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "red": 0,
+                                    "green": 255,
+                                    "blue": 0,
+                                    "CHROMAKEY_TOLERANCE": 26,
+                                    "CHROMAKEY_SMOOTHNESS": 23,
+                                    "CHROMAKEY_EDGE_THICKNESS": 0,
+                                    "CHROMAKEY_EDGE_FEATHER": 0
+                                },
+                                "VideoLUT": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "LutName": "",
+                                    "strength": 1.0
+                                },
+                                "ColorEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "COLOR_TEMPERATURE": 0.0,
+                                    "COLOR_TINT": 0.0,
+                                    "COLOR_EXPOSURE": 0.0,
+                                    "COLOR_BRIGHTNESS": 0.0,
+                                    "COLOR_CONTRAST": 0.0,
+                                    "COLOR_SATURATION": 0.0,
+                                    "COLOR_VIBRANCE": 0.0,
+                                    "COLOR_HIGHLIGHTS": 0.0,
+                                    "COLOR_SHADOWS": 0.0,
+                                    "COLOR_WHITES": 0.0,
+                                    "COLOR_BLACKS": 0.0,
+                                    "HSL_RED": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_ORANGE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_YELLOW": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_GREEN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_CYAN": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_BLUE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    },
+                                    "HSL_PURPLE": {
+                                        "HSL_HUE": 0,
+                                        "HSL_SAT": 0,
+                                        "HSL_LUM": 0
+                                    }
+                                },
+                                "Sharpen": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "amount": 500,
+                                    "radius": 2,
+                                    "threshold": 0
+                                },
+                                "Denoise": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "enableDenoise": false,
+                                    "deviation": 5.0,
+                                    "coefficient": 2.0,
+                                    "edgeThreshold": 0.3,
+                                    "enableAutoLevel": false,
+                                    "autoLevelK1": 0.5
+                                },
+                                "VignetteEditor": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 0.0,
+                                        "fileCuttedStart": 0.0,
+                                        "fileCuttedDuration": 0.0,
+                                        "blockDuration": 0.0
+                                    },
+                                    "VIGNETTE_AMOUNT": 0,
+                                    "VIGNETTE_SIZE": 100,
+                                    "VIGNETTE_ROUNDNESS": 0,
+                                    "VIGNETTE_FEATHER": 50,
+                                    "VIGNETTE_INNER_LIGHT": 0
+                                },
+                                "VideoTransformer": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": true,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 35.53666666666666,
+                                        "fileCuttedDuration": 4.095532879818592,
+                                        "blockDuration": 4.095532879818592
+                                    },
+                                    "rectData": {
+                                        "version": 0,
+                                        "srcWidth": 429,
+                                        "srcHeight": 457,
+                                        "targetWidth": 480,
+                                        "targetHeight": 480,
+                                        "centerPosX": 0.5,
+                                        "centerPosY": 0.5,
+                                        "sizeX": 0.9387308533916849,
+                                        "sizeY": 1.0,
+                                        "angle": 0.0
+                                    },
+                                    "overlay": false,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 0.0,
+                                    "fadeInDirect": 255,
+                                    "fadeOutDirect": 255,
+                                    "baseInfoInited": true
+                                },
+                                "Compositing": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "valid": false,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 35.53666666666666,
+                                        "fileCuttedDuration": 4.095532879818592,
+                                        "blockDuration": 4.095532879818592
+                                    },
+                                    "mode": 0,
+                                    "opacity": 1.0,
+                                    "fadeInDuration": 0.0,
+                                    "fadeOutDuration": 0.0,
+                                    "fadeInEnabeld": false,
+                                    "fadeOutEnabled": false
+                                }
+                            },
+                            "AudioAttribute": {
+                                "version": 0,
+                                "mute": false,
+                                "fadeInDuration": 0.0,
+                                "fadeOutDuration": 0.0,
+                                "multiple": 1.0,
+                                "pitch": 1.0,
+                                "pitchType": 1
+                            },
+                            "SpeedAttribute": {
+                                "version": 0,
+                                "reversePlay": false,
+                                "Speed": {
+                                    "version": 0,
+                                    "baseData": {
+                                        "version": 0,
+                                        "fileTotalDuration": 55.184,
+                                        "fileCuttedStart": 35.53666666666666,
+                                        "fileCuttedDuration": 4.095532879818592,
+                                        "handledTotalDuration": 55.184,
+                                        "handledCuttedStart": 35.53666666666666,
+                                        "handledCuttedDuration": 4.095532879818592
+                                    },
+                                    "curve": "TmM0AQQAAAAAAAAAAPLqQAEAAAACAAAABwAAAP////8AAHBC/38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAFUVOUYAAACgqiLHQAAAAAAAAAAAYH9AOU2l4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGX/n+/1nhQAAAAAAAAAAAAQEAAAAAAAAGX/n+/1nhQAAAAAAAAAAAUXhn8///7z8AAAAAAAAAAMaytETLmq9E8j+0yZoJ4kAAAAAAAAAAAPq0pR8Wt+JAAAAAAAAAAAAGX/n+/1nhQAAAAAAAAAAAOhiV+99Z40AAAAAAAAAAAAEAAAAAAAAAOhiV+99Z40AAAAAAAAAAABIFvPz//+8/AAAAAAAAAADcyaJEAAAAADoYlfvfWeNAAAAAAAAAAAAAAABU9WnoQAAAAAAAAAAAOhiV+99Z40AAAAAAAAAAAAAAAAAA8upAAAAAAAAAAAABAAAAAAAAAAAAAAAA8upAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAqwKiRQAAAAAAAACc2TrmQAAAAAAAAAAAAAAArCqz6EAAAAAAAAAAAAAAAACANeRAAAAAAAAAAAAAAAAAAPLqQAAAAAAAAAAAAQEAAAAAAAA="
+                                },
+                                "extraSpeed": 1.0,
+                                "audioSpeedRate": false
+                            }
+                        }
+                    }
+                ],
+                "tstart": 0.0,
+                "tduration": 1.7976931348623157e308,
+                "context": 8045.532879818593,
+                "opacity": 100,
+                "mute": false,
+                "transitions": [
+                    {
+                        "title": "Fade to Black",
+                        "type": "TransitionBlock",
+                        "status": 0,
+                        "uuid": "{811A0FBC-3782-4785-AA17-6D40DDDC8BAE}",
+                        "tstart": 3009.999999999998,
+                        "tduration": 1880.0000000000044,
+                        "restype": "VideoTransiResource",
+                        "resid": "basic_FadeColor",
+                        "attribute": {
+                            "version": 0,
+                            "duration": 1.8800000000000044,
+                            "Transition type": {
+                                "version": 0,
+                                "value": 0.0,
+                                "value2": 0.0,
+                                "r": 0,
+                                "g": 0,
+                                "b": 0,
+                                "transi_type": 1,
+                                "pic_path": ""
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Overlay Track",
+                "type": "OverlayTrack",
+                "status": 0,
+                "tstart": 0.0,
+                "tduration": 1.7976931348623157e308,
+                "context": 0.0,
+                "opacity": 100,
+                "mute": false
+            },
+            {
+                "title": "Audio Track",
+                "type": "AudioTrack",
+                "status": 0,
+                "tstart": 0.0,
+                "tduration": 1.7976931348623157e308,
+                "context": 0.0,
+                "opacity": 100,
+                "mute": false
+            },
+            {
+                "title": "Subtitle Track",
+                "type": "SubtitleTrack",
+                "status": 17,
+                "subitems": [
+                    {
+                        "title": "Text",
+                        "type": "TextEffectBlock",
+                        "background": 2013018879,
+                        "foreground": 1216461823,
+                        "status": 0,
+                        "uuid": "{EEAEE19B-61A7-4749-81AC-56E234B2CA9F}",
+                        "tstart": 733.3333333333334,
+                        "tduration": 2466.666666666667,
+                        "restype": "TextEffectResource",
+                        "resid": "text_001",
+                        "attribute": {
+                            "type": "editor",
+                            "fragments": {
+                                "scale2": 1.0,
+                                "chars": [
+                                    {
+                                        "char": 49,
+                                        "ffn": "BerlinSansFBDemi-Bold",
+                                        "fsize": 148,
+                                        "fcolor": 4294908435,
+                                        "bs": 0,
+                                        "bc": 4278190080,
+                                        "bb": 5,
+                                        "st": 7,
+                                        "ss": 20,
+                                        "sc": 4278207400,
+                                        "sb": 3
+                                    }
+                                ],
+                                "lineSpace": 2,
+                                "charSpace": 0,
+                                "align": 0,
+                                "angle": 0.0,
+                                "x": 0.30000001192092898,
+                                "y": 0.4000000059604645,
+                                "w": 0.4000000059604645,
+                                "h": 0.20000000298023225,
+                                "inFlter": 0,
+                                "inFlterTime": 0,
+                                "outFlter": 9,
+                                "outFlterTime": 0
+                            },
+                            "leftTimestamp": -0.4666666666666666,
+                            "rightTimestamp": 2.0
+                        }
+                    },
+                    {
+                        "title": "Text",
+                        "type": "TextEffectBlock",
+                        "background": 891550975,
+                        "foreground": 1216461823,
+                        "status": 1,
+                        "uuid": "{0984D2D9-EA45-479D-89F1-C322058DDA57}",
+                        "tstart": 5166.666666666667,
+                        "tduration": 2733.333333333333,
+                        "restype": "TextEffectResource",
+                        "resid": "text_001",
+                        "attribute": {
+                            "type": "editor",
+                            "fragments": {
+                                "scale2": 1.0,
+                                "chars": [
+                                    {
+                                        "char": 50,
+                                        "ffn": "BerlinSansFBDemi-Bold",
+                                        "fsize": 148,
+                                        "fcolor": 4294910498,
+                                        "bs": 0,
+                                        "bc": 4278190080,
+                                        "bb": 5,
+                                        "st": 7,
+                                        "ss": 20,
+                                        "sc": 4278207400,
+                                        "sb": 3
+                                    }
+                                ],
+                                "lineSpace": 2,
+                                "charSpace": 0,
+                                "align": 0,
+                                "angle": 0.0,
+                                "x": 0.23160375654697419,
+                                "y": 0.30094340443611147,
+                                "w": 0.4000000059604645,
+                                "h": 0.20000000298023225,
+                                "inFlter": 0,
+                                "inFlterTime": 0,
+                                "outFlter": 9,
+                                "outFlterTime": 0
+                            },
+                            "leftTimestamp": 0.0,
+                            "rightTimestamp": 2.733333333333333
+                        }
+                    }
+                ],
+                "tstart": 0.0,
+                "tduration": 1.7976931348623157e308,
+                "context": 7900.0,
+                "opacity": 100,
+                "mute": false
+            }
+        ],
+        "tstart": 0.0,
+        "tduration": 1.7976931348623157e308,
+        "context": 8045.532879818593,
+        "connect": {}
+    },
+    "projinfo": {
+        "name": "KickIt_BlockTutorial",
+        "projectfile": "C:/Users/mike_/Videos/KickIt_BlockTutorial/KickIt_BlockTutorial.vpd",
+        "savetime": {
+            "year": 2023,
+            "month": 11,
+            "day": 28,
+            "hour": 18,
+            "minute": 47,
+            "second": 3
+        },
+        "player": {
+            "version": 0,
+            "frameRateNum": 30,
+            "frameRateDen": 1,
+            "resolutionW": 480,
+            "resolutionH": 480,
+            "clearR": 0.0,
+            "clearG": 0.0,
+            "clearB": 0.0,
+            "clearA": 1.0,
+            "showRefline": true,
+            "lockRefline": false,
+            "refLines": [],
+            "volume": 1.0
+        }
+    },
+    "videolist": {
+        "title": "Video",
+        "type": "ResourceLists",
+        "status": 0,
+        "subitems": [
+            {
+                "title": "2023-11-28 15-49-24",
+                "type": "MediaFileResource",
+                "status": 0,
+                "uuid": "AD2F274893830A2F9C80C80B7578102C",
+                "path": "C:/Users/mike_/Videos/2023-11-28 15-49-24.mkv",
+                "duration": 55.184
+            }
+        ]
+    },
+    "audiolist": {
+        "title": "Music",
+        "type": "ResourceLists",
+        "status": 0
+    },
+    "imagelist": {
+        "title": "Picture",
+        "type": "ResourceLists",
+        "status": 0,
+        "scapegoat": []
+    },
+    "subtitlelist": {
+        "title": "Subtitle",
+        "type": "ResourceLists",
+        "status": 0
+    }
+}
