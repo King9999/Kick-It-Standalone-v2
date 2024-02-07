@@ -92,8 +92,8 @@ MonoBehaviour:
   - {fileID: 2603233577820219468}
   - {fileID: 1965296331217426183}
   - {fileID: 5251067730083499146}
-  - {fileID: 6831647811605882900}
   - {fileID: 637371043423841378}
+  - {fileID: 6831647811605882900}
   - {fileID: 3933296273763241673}
   hintDialogueOpen: 0
   hintCursorList: []

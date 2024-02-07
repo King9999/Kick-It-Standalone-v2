@@ -79,6 +79,7 @@ MonoBehaviour:
   currentSpark: 0
   targetCursor: {fileID: 4606649721873746897}
   gameState: 0
+  previousState: 0
   dialogueIndex: 0
 --- !u!1 &5047134756340700499
 GameObject:
